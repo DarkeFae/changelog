@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run
-        uses: DarkeFae/DiscordGitCommits@latest
+        uses: DarkeFae/DiscordGitCommits@main
     env:
       WEBHOOK_TOKEN: ${{ secrets.WEBHOOK_TOKEN }}
       WEBHOOK_CHANNEL: ${{ secrets.WEBHOOK_CHANNEL }}
