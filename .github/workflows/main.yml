@@ -5,6 +5,9 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      - name: env
+        run: |
+          echo "${{ secrets.ENV_FILE }}" > .env
       - name: run
         uses: DarkeFae/DiscordGitCommits@main
     env:
