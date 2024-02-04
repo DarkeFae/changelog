@@ -1,0 +1,16 @@
+name: Post Changelogs to Discord
+on: push
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run
+        uses: DarkeFae/DiscordGitCommits@latest
+    env:
+      WEBHOOK_TOKEN: ${{ secrets.WEBHOOK_TOKEN }}
+      WEBHOOK_CHANNEL: ${{ secrets.WEBHOOK_CHANNEL }}
+      ROLE: ${{ secrets.ROLE }}
+      GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+      GIT_REPOSITORY: ${{ secrets.GIT_REPOSITORY }}
+      GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
