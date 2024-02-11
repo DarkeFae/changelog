@@ -1,12 +1,12 @@
 [this is a test]
 Some content
-<done> testing
+<done>testing
 
 [cat1]
-string
+<broke>string
 
 [cat3]
-dog
+<todo>dog
 
 [cat4]
 lets see if this breaks
