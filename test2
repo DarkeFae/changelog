@@ -1,0 +1,12 @@
+[this is a test]
+Some content
+<done>testing
+
+[cat1]
+<broke>string
+
+[cat3]
+<todo>dog
+
+[cat4]
+lets see if this breaks
